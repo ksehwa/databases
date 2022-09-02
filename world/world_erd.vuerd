@@ -339,6 +339,29 @@
             "id": "67130c28-6b3b-4aaf-9056-dba28198182e"
           },
           {
+            "name": "GNPOld",
+            "comment": "과거 국민총생산",
+            "dataType": "DECIMAL",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 97.5703125,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7dcdeaf9-bff0-465b-a577-7ea19d28f320"
+          },
+          {
             "name": "Polpulation",
             "comment": "인구수",
             "dataType": "INT",
@@ -406,29 +429,6 @@
               "widthDefault": 60
             },
             "id": "dcbabbe7-28c3-4679-b8d1-fd1091440796"
-          },
-          {
-            "name": "GNPOld",
-            "comment": "과거 국민총생산",
-            "dataType": "DECIMAL",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 97.5703125,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "7dcdeaf9-bff0-465b-a577-7ea19d28f320"
           },
           {
             "name": "LocalName",
@@ -550,7 +550,7 @@
           "active": false,
           "left": 467.2,
           "top": 11.2,
-          "zIndex": 2,
+          "zIndex": 3,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -704,7 +704,7 @@
           "active": false,
           "left": 906.4,
           "top": 425.6,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 125.30322265625,
           "widthComment": 60
         },
